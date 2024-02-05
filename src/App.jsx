@@ -16,7 +16,7 @@ const App = () => {
     if (charAllowed) str += "@!_-&$*";
 
     for (let i = 0; i < length; i++) {
-      let randomIdx = Math.floor(Math.random() * str.length + 1);
+      let randomIdx = Math.floor(Math.random() * str.length);
       pass += str[randomIdx];
     }
 
